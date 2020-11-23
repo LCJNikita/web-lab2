@@ -1,0 +1,31 @@
+.table {
+    background: #379ce6;
+    line-height: 2;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.table caption {
+    background: #1946BA;
+}
+.table th {
+    width: 0.5%;
+    background: #3c5fff;
+}
+
+tbody{
+    min-width: 300px;
+    min-height: 300px;
+    width: 15vh;
+}
+
+tr {
+    height: 15vh;
+    min-height: 50px;
+}
+
+td {
+    min-width: 15vh;
+    min-height: 50px;
+}

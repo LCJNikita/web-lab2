@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.header {
+    position: fixed;
+    padding-right: 55px;
+    padding-left: 55px;
+    width: 100vw;
+    height: 84px;
+    left: 0;
+    top: 0;
+    background: #1946BA;
+    font-family: "Times New Roman", fantasy;
+    color: white;
+}
+
+.header h1 {
+    float: left;
+    margin-top: 17px;
+}
+
+.header h2 {
+    float: right;
+    margin-top: 7px;
+    padding-right: 110px;
+}
+
+body {
+    padding-top: 84px;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    width: 70%;
+    font-family: "Times New Roman", sans-serif;
+    background: white;
+    margin: auto;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.plot {
+    display: flex;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 1% auto;
+    background-color: white;
+    padding: 2%;
+    border: 3px solid #1946BA;
+    border-radius: 20px;
+}
+
+svg {
+    margin: auto auto;
+    display: block;
+    text-align: right;
+    background-color: white;
+
+}

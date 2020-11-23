@@ -1,0 +1,63 @@
+form{
+    display: block;
+    width: 30vw;
+    min-width: 350px;
+    margin: 1% auto;
+    color: black;
+    text-align: center;
+}
+
+form p{
+    text-align: center;
+}
+
+#error-message {
+    color: red;
+    text-transform: uppercase;
+}
+
+.buttons-container{
+    padding: 10px;
+}
+
+.Y-controls {
+    margin: 0 auto;
+    width: 220px;
+    text-align: center;
+}
+
+select {
+    width: 150px;
+    padding: 5px;
+    border: 2px solid #1946BA;
+    margin: 5px;
+    background: none;
+}
+
+.text-field {
+    width: 150px;
+    padding: 5px;
+    border: 2px solid #1946BA;
+    margin: 5px;
+    background: none;
+}
+
+.form-buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    min-width: 100px;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background: #1946BA;
+}
+
+.clear-button {
+    background:  #379ce6;
+}
